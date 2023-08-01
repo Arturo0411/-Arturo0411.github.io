@@ -1,0 +1,121 @@
+.menu{
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    background-color: #732013;
+    text-align: center;
+}
+nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      }
+            
+nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#2f0b0b;
+      text-align:center;
+      color:#fff;
+      position:relative;
+     /* transition:all .3s; 
+      list-style: none; */
+}
+            
+nav li:hover{
+      background-color:#ffffff;
+      color:#732013;
+        /*Tamaño cuando el cursor señale la barra
+        width: 20%;
+        height: 5vh;*/
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:40px;
+      left:-40px;
+}
+.video{
+      width: 90%; /**/
+      height: 100%;/**/
+      margin: auto;
+      text-align: center;
+      padding: 6px;
+      position: absolute;
+      z-index: -1;
+
+     
+}
+
+#sect1 {
+      position: relative;
+      overflow: hidden;
+    }
+h1{
+      text-align: center;
+}
+
+.cajas{
+      width: 90%;
+      height: 30%;
+      margin: auto;
+      padding: 6px;
+      /*background-color: white*/
+}
+
+.box1   {
+            margin: 5%;
+            height: 300px;
+            width: 550px;
+            /*background-color: white*/
+            display: flex;
+            justify-content: center;
+        }
+            .box2   {
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 15px;
+             margin: 5%;
+             height: 240px;
+             width: 550px;
+             
+             /*background-color: white*/
+           
+         }
+         .box3  {
+            display: flex;
+            justify-content: center;
+            font-family: sans-serif;
+            font-size: 15px;
+            float: right;
+		margin: 5%;
+		height: 240px;
+		width: 550px;
+		position: relative;
+		top: -750px;
+		/*background-color: white*/
+        }
+        .box4   {
+            display: flex;
+            justify-content: center; 
+            float: right;
+             margin: 5%;
+             height: 240px;
+             width: 550px;
+             position: relative;
+             top: -740px;
+            /*background-color: white*/
+        }
+.imagen{
+      float: left;
+    padding-top: -10px;
+      top: -330px;
+}
